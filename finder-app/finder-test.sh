@@ -10,9 +10,6 @@ WRITESTR=AELD_IS_FUN
 WRITEDIR=/tmp/aeld-data
 username=$(cat conf/username.txt)
 
-# CLean build artifacts and build
-make clean
-make all
 
 if [ $# -lt 3 ]
 then
